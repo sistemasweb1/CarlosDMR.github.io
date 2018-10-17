@@ -1,0 +1,30 @@
+
+
+.encabeza2{
+	
+	background-color: Red;
+	color:white;
+	padding:10px;
+}
+.encabeza3{
+	background-color:Tomato;
+	border: 3px solid Tomato;
+	color:white;
+	padding:10px;
+	}
+
+#id{
+	border: 3px solid Tomato;
+	color:black;
+	padding:10px;
+	}
+#Titulo{
+	font-size:60 px; 
+	color:white;
+	text-align:left; 
+	background-color:orangered;
+}
+
+body{
+	background-color: white;
+}
