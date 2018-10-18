@@ -1,15 +1,23 @@
-
+@font-face
+{
+   font-family: Mayan;
+   src:url(Fuentes\mayan.otf) format("opentype")
+}
+body{
+		background-color:black;
+}
 
 .encabeza2{
 	
-	background-color: Red;
+	background-color: OrangeRed;
+	border-radius: 15px;
 	color:white;
 	padding:10px;
 }
 .encabeza3{
-	background-color:Tomato;
 	border: 3px solid Tomato;
-	color:white;
+	border-radius: 15px;
+	color:Tomato;
 	padding:10px;
 	}
 
@@ -19,10 +27,11 @@
 	padding:10px;
 	}
 #Titulo{
+	border-left: 6px solid red;
+    background-color: Tomato;
+	font-family:Agency FB;
 	font-size:60 px; 
 	color:white;
-	text-align:left; 
-	background-color:orangered;
 }
 
 body{
