@@ -1,0 +1,49 @@
+.encabeza2{
+	overflow:auto;
+	background-color: OrangeRed;
+	border-radius: 15px;
+	color:white;
+	padding:10px;
+	
+}
+.encabeza3{
+	border: 3px solid Tomato;
+	border-radius: 15px;
+	color:Tomato;
+	padding:10px;
+	overflow:auto;
+	margin:10px;
+}
+
+.encabeza2PS4{
+	overflow:auto;
+	background-color: DodgerBlue;
+	border-radius: 15px;
+	color:white;
+	padding:10px;
+	
+}
+.encabeza3PS4{
+	border: 3px solid DodgerBlue;
+	border-radius: 15px;
+	color:Tomato;
+	padding:10px;
+	overflow:auto;
+	margin:10px;
+}
+	
+.img-container {
+    float: left;
+    width: 32%;
+    padding: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.active {
+    background-color: red;
+}

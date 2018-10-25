@@ -3,37 +3,37 @@
    font-family: Mayan;
    src:url(Fuentes\mayan.otf) format("opentype")
 }
-body{
-		background-color:black;
-}
-
-.encabeza2{
-	
-	background-color: OrangeRed;
-	border-radius: 15px;
-	color:white;
-	padding:10px;
-}
-.encabeza3{
-	border: 3px solid Tomato;
-	border-radius: 15px;
-	color:Tomato;
-	padding:10px;
-	}
-
-#id{
-	border: 3px solid Tomato;
-	color:black;
-	padding:10px;
-	}
-#Titulo{
-	border-left: 6px solid red;
-    background-color: Tomato;
-	font-family:Agency FB;
-	font-size:60 px; 
-	color:white;
-}
 
 body{
 	background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: DarkRed;
+}
+
+ul {
+	float:right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkred;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
