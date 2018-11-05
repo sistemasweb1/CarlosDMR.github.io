@@ -25,10 +25,14 @@
 }
 
 #ParrafoP{
+	background-color: white;
 	font-family: small-caps;
 	border: 3px solid Tomato;
-	border-radius: 15px;
 	color:red;
 	overflow:auto;
-	margin:100px;
+	display:block;
+}
+
+#ParrafoP:hover{
+	background-color:darkred;
 }

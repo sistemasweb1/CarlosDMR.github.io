@@ -19,11 +19,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: darkred;
+    background-color: DarkRed;
 }
 
 li {
-    float: left;
+    float: right;
 }
 
 li a {
@@ -31,7 +31,6 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
 
 li a:hover {
