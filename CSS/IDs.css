@@ -29,16 +29,14 @@
 	font-family: small-caps;
 	border: 3px solid Tomato;
 	color:red;
-	overflow:auto;
-<<<<<<< HEAD
-	display:block;
+	
 }
 
 #ParrafoP:hover{
 	background-color:darkred;
 }
-=======
-	margin:100px;
-    	clear: both;
+
+#Marco{
+	border-left: 6px solid darkred;
+    background-color: darkred;
 }
->>>>>>> e4ae0ac6d47cfa1ac22146d0bc4504b8b1732d00

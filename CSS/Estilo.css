@@ -14,7 +14,6 @@ a {
 }
 
 ul {
-	float:right;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -23,7 +22,9 @@ ul {
 }
 
 li {
-    float: right;
+	font-family: 'Spicy Rice' ;
+	font-size: 18px;
+    float: left;
 }
 
 li a {
@@ -36,3 +37,14 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+a:active{
+	text-decoration:underline;
+}
+
+a:hover {
+    text-decoration: underline;
+	color:white;
+}
+
+

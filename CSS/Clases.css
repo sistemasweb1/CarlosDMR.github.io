@@ -1,10 +1,8 @@
 .encabeza2{
-	overflow:auto;
-	background-color: OrangeRed;
-	border-radius: 15px;
+	font-family:Times;
+	font-size: 22px;
 	color:white;
-	padding:10px;
-	
+	opacity:1;
 }
 .encabeza3{
 	background-color: white;
@@ -36,18 +34,18 @@
     width: 66%;
     padding: 5px;
 }
-	
+
+div.ex2 {
+    width: 300%;
+    padding: 25px;
+    background-color: darkred;
+}
 .contenedor {
     float: left;
     width: 32%;
     padding: 5px;
 }
 
-.clearfix {
-	
-    clear: both;
-    display: table;
-}
 
 .clearfix {
     content: "";
@@ -97,4 +95,39 @@
 
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+	bottom: 8px;
+    left: 16px;
+	font-size:26px;
+}
+
+.TIT{
+	width:50%;
+	height:360px;
+	float:left;
+	clear:both;
+	
+}
+
+.TIText{
+	position:absolute;
+	width: 50%;
+	float:left;
+	top:280px;
+}
+
+
+.Parrafo{
+    font-size: 25px;
+	font-family: 'Spicy Ride';
+	color:white;
+	text-align:right;
+	background: rgba(200,0,0,0.25);
 }
