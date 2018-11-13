@@ -10,32 +10,32 @@ body{
 
 a {
     text-decoration: none;
-    color: DarkRed;
+    color: white;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
-    background-color: DarkRed;
+    background-color: white;
 }
 
 li {
 	font-family: 'Spicy Rice' ;
 	font-size: 18px;
-    float: left;
+	float:left;
 }
 
 li a {
     display: inline-block;
-    color: white;
+    color: Tomato;
     text-align: center;
     padding: 14px 16px;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: white;
 }
 
 a:active{
@@ -44,7 +44,6 @@ a:active{
 
 a:hover {
     text-decoration: underline;
-	color:white;
 }
 
 

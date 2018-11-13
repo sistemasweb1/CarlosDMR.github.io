@@ -5,9 +5,10 @@
 }
 
 #Titulo{
-	border-left: 6px solid darkred;
-    background-color: red;
-	font-family:Agency FB;
+	text-align:center;
+	border-left: 6px solid Tomato;
+    background-color: Tomato;
+	font-family:'Spicy Rice';
 	font-size:50 px; 
 	color:white;
 	margin: 5px;
@@ -25,18 +26,31 @@
 }
 
 #ParrafoP{
-	background-color: white;
-	font-family: small-caps;
-	border: 3px solid Tomato;
-	color:red;
+	display:inline;
+	color:Tomato;
+	font-family: Cooper;
+	font-size:20px;
+	padding:33px;
+	
 	
 }
 
-#ParrafoP:hover{
-	background-color:darkred;
+#Marco{
+	border-left: 8px solid red;
+    background-color: red;
 }
 
-#Marco{
-	border-left: 6px solid darkred;
-    background-color: darkred;
+#panel, .flip {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    border: solid 1px #a6d8a8;
+    margin: auto;
 }
+
+#panel {
+    display: none;
+}
+

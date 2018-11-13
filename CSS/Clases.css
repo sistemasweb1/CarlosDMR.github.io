@@ -5,11 +5,10 @@
 	opacity:1;
 }
 .encabeza3{
-	background-color: white;
-	border: 3px solid Tomato;
+	font-family: 'Spicy Rice';
+	font-size:22px;
 	color:Tomato;
-	padding:10px;
-	overflow:auto;
+	padding:15px;
 }
 
 .encabeza2PS4{
@@ -36,9 +35,10 @@
 }
 
 div.ex2 {
-    width: 300%;
+    width: 100%;
     padding: 25px;
-    background-color: darkred;
+    background-color: Tomato;
+	color:white;
 }
 .contenedor {
     float: left;
@@ -103,7 +103,7 @@ div.ex2 {
 
 .absolute {
     position: absolute;
-	bottom: 8px;
+	bottom: 5px;
     left: 16px;
 	font-size:26px;
 }
@@ -120,14 +120,18 @@ div.ex2 {
 	position:absolute;
 	width: 50%;
 	float:left;
-	top:280px;
+	top:267px;
 }
 
 
 .Parrafo{
     font-size: 25px;
-	font-family: 'Spicy Ride';
+	font-family: 'Spicy Rice';
 	color:white;
 	text-align:right;
-	background: rgba(200,0,0,0.25);
+	background: rgba(255,99,71,0.25);
+}
+
+.MarPar{
+	background: linear-gradient(White,AntiqueWhite);
 }
