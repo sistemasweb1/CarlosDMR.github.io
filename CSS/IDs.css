@@ -5,7 +5,7 @@
 }
 
 #Titulo{
-	text-align:center;
+	float:center;
 	border-left: 6px solid Tomato;
     background-color: Tomato;
 	font-family:'Spicy Rice';
@@ -54,3 +54,16 @@
     display: none;
 }
 
+#Barrabusq {
+    width: 10%;
+    box-sizing: border-box;
+    border: 2px solid tomato;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+	float:right;
+	clear:both;
+}

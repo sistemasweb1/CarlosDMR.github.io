@@ -135,3 +135,19 @@ div.ex2 {
 .MarPar{
 	background: linear-gradient(White,AntiqueWhite);
 }
+
+.row{
+    content: "";
+    display: table;
+	background-color:Tomato;
+	color:white;
+	font-family:cooper;
+	font-size:15px;
+    clear: both;
+}
+
+.contenedormini{
+	float: left;
+    width: 30%;
+    padding: 5px
+}
