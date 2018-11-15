@@ -72,13 +72,14 @@ th, td{
     padding: 10px;
 }
 
-tr:nth-child(even){background-color:Gray;}
+tr:nth-child(even){background-color:Tomato;}
 
-tr{background-color: black;}
+tr{background-color: Red;}
 
 th{
-    background-color:black;
+    background-color:Red;
     color:white;
+    font-family: calibri;
 }
 
 
