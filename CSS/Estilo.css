@@ -62,18 +62,22 @@ input[type=text] {
 }
 
 
-#Barrabusq {
-    width: 10%;
-    box-sizing: border-box;
-    border: 2px solid tomato;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 10px 12px;
-	float:right;
-	clear:both;
+table{
+    border-collapse:collapse;
+    width: 100%;
 }
+
+th, td{
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even){background-color:darkred}
+
+th{
+    background-color:red;
+    color:white;
+}
+
+
 

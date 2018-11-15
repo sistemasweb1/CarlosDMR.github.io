@@ -48,9 +48,8 @@ div.ex2 {
 
 
 .clearfix {
-    content: "";
+    overflow: auto;
     clear: both;
-    display: table;
 }
 
 .active {
@@ -110,7 +109,7 @@ div.ex2 {
 
 .TIT{
 	width:50%;
-	height:360px;
+	height:100%;
 	float:left;
 	clear:both;
 	
@@ -129,7 +128,7 @@ div.ex2 {
 	font-family: 'Spicy Rice';
 	color:white;
 	text-align:right;
-	background: rgba(255,99,71,0.25);
+	background: rgba(255,99,71);
 }
 
 .MarPar{
@@ -149,5 +148,21 @@ div.ex2 {
 .contenedormini{
 	float: left;
     width: 30%;
-    padding: 5px
+    padding: 5px;
+}
+
+.MarcoPrin{
+	padding-left:3%;
+	padding-right:3%;
+	padding-top:1%;
+	padding-bottom:1%;
+	content: "";
+    clear: both;
+    display: table;
+}
+
+ .Pos{
+    font-family: Cooper;
+    text-align: justify;
+    color: white;
 }

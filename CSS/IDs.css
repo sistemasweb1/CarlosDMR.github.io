@@ -67,3 +67,9 @@
 	float:right;
 	clear:both;
 }
+
+#Main{
+	width:960px;
+	margin: 0px auto;
+	
+}
