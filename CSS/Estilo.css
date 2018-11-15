@@ -72,10 +72,12 @@ th, td{
     padding: 10px;
 }
 
-tr:nth-child(even){background-color:darkred}
+tr:nth-child(even){background-color:Gray;}
+
+tr{background-color: black;}
 
 th{
-    background-color:red;
+    background-color:black;
     color:white;
 }
 

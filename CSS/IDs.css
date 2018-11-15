@@ -32,7 +32,6 @@
 	font-size:20px;
 	padding:33px;
 	
-	
 }
 
 #Marco{
@@ -72,4 +71,11 @@
 	width:960px;
 	margin: 0px auto;
 	
+}
+
+#TabladePosiciones{
+	clear: both;
+	width: 60%;
+	margin: 0px left;
+	padding-bottom: 5px;
 }
