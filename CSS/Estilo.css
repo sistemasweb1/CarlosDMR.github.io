@@ -63,8 +63,13 @@ input[type=text] {
 
 
 table{
+    border: 2px solid darkred;
+    border-radius: 5px;
     border-collapse:collapse;
     width: 100%;
+    font-family: Helvetica;
+    color:white;
+    font-size: 14px;
 }
 
 th, td{
@@ -74,12 +79,10 @@ th, td{
 
 tr:nth-child(even){background-color:Tomato;}
 
-tr{background-color: Red;}
+tr{background-color: Red; overflow: auto;}
 
 th{
     background-color:Red;
-    color:white;
-    font-family: calibri;
 }
 
 

@@ -74,8 +74,15 @@
 }
 
 #TabladePosiciones{
-	clear: both;
-	width: 60%;
+	width: 63%;
 	margin: 0px left;
-	padding-bottom: 5px;
+	float: left;
+	padding: 5px;
 }
+
+#TabladeLanzamientos{
+	width: 34%;
+	float:left;
+	padding: 5px;
+}
+

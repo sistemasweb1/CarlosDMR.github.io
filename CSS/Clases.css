@@ -1,8 +1,9 @@
 .encabeza2{
-	font-family:Times;
-	font-size: 22px;
+	font-family:Calibri light;
+	font-size: 26px;
 	color:white;
-	opacity:1;
+	padding: 2px;
+	text-shadow: 2px 2px black;
 }
 .encabeza3{
 	font-family: 'Spicy Rice';
@@ -28,18 +29,6 @@
 	margin:10px;
 }
 
-.contenedorTit {
-    float: left;
-    width: 66%;
-    padding: 5px;
-}
-
-div.ex2 {
-    width: 100%;
-    padding: 25px;
-    background-color: Tomato;
-	color:white;
-}
 .contenedor {
     float: left;
     width: 32%;
@@ -54,46 +43,6 @@ div.ex2 {
 
 .active {
     background-color: red;
-}
-.dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-
-.dropdown{
-	position:relative;
-	display:inline-block;
-}
-
-.dropdown-content{
-	display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
 }
 
 .relative {
@@ -136,7 +85,6 @@ div.ex2 {
 }
 
 .row{
-    content: "";
     display: table;
 	background-color:Tomato;
 	color:white;
@@ -152,18 +100,42 @@ div.ex2 {
 }
 
 .MarcoPrin{
-	padding-left:3%;
-	padding-right:3%;
-	padding-top:1%;
-	padding-bottom:1%;
-	content: "";
-    clear: both;
-    display: table;
+	margin:0px auto;
+	width: 95%;
+	position: relative;
 }
+.TituloImg{
+	position:absolute;
+	margin:0px auto;
+	width: 100%;
+	background: rgba(255,255,255,0.5);
+	color: white;
+	bottom: 0%;
 
+}
 
 .Pos{
     font-family: Helvetica;
-    text-align: justify;
+    text-align: center;
     color: white;
+    background-color: red;
+
 }
+
+.TxTb{
+	float: right;
+	font-family: Helvetica;
+	text-align: justify;;
+}
+
+.TxTl{
+	float: right;
+	font-family: Calibri;
+	text-align: right;
+}
+
+.TituloTb{
+	text-align: center;
+	border:1px solid darkred;
+}
+
