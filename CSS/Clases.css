@@ -1,15 +1,31 @@
-.encabeza2{
+.encabezado{
 	font-family:Calibri light;
 	font-size: 26px;
 	color:white;
 	padding: 2px;
 	text-shadow: 2px 2px black;
 }
-.encabeza3{
+
+.encabeza2{
+    font-size: 25px;
 	font-family: 'Spicy Rice';
-	font-size:22px;
-	color:Tomato;
-	padding:15px;
+	color:white;
+	text-align:right;
+	background: rgba(255,99,71);
+}
+
+.encabeza3{
+	font-family:Calibri light;
+	font-size: 26px;
+	background-color: red;
+	color:white;
+	padding: 2px;
+	text-shadow: 2px 2px black;
+}
+
+.Parrafo{
+	font-family: calibri light;
+	text-align: justify;
 }
 
 .encabeza2PS4{
@@ -32,9 +48,16 @@
 .contenedor {
     float: left;
     width: 32%;
-    padding: 5px;
+    padding: 4px;
+    border-bottom: 2px solid Tomato;
 }
 
+.contene2 {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    clear: both;
+}
 
 .clearfix {
     overflow: auto;
@@ -71,15 +94,6 @@
 	top:267px;
 }
 
-
-.Parrafo{
-    font-size: 25px;
-	font-family: 'Spicy Rice';
-	color:white;
-	text-align:right;
-	background: rgba(255,99,71);
-}
-
 .MarPar{
 	background: linear-gradient(White,AntiqueWhite);
 }
@@ -103,6 +117,7 @@
 	margin:0px auto;
 	width: 95%;
 	position: relative;
+	padding: 5px;
 }
 .TituloImg{
 	position:absolute;

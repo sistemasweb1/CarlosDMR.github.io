@@ -36,7 +36,9 @@
 
 #Marco{
 	border-left: 8px solid red;
+	border-bottom: 3px solid red;
     background-color: red;
+    padding-left: 5px;
 }
 
 #panel, .flip {
@@ -81,8 +83,8 @@
 }
 
 #TabladeLanzamientos{
-	width: 34%;
+	width: 35%;
 	float:left;
-	padding: 5px;
+	padding: 3px;
 }
 
