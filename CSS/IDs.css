@@ -5,10 +5,10 @@
 }
 
 #Titulo{
-	float:center;
+	text-align: center;
 	border-left: 6px solid Tomato;
     background-color: Tomato;
-	font-family:'Spicy Rice';
+    font-family: 'Allerta Stencil', sans-serif;
 	font-size:50 px; 
 	color:white;
 	margin: 5px;
@@ -82,9 +82,5 @@
 	padding: 5px;
 }
 
-#TabladeLanzamientos{
-	width: 35%;
-	float:left;
-	padding: 3px;
-}
+
 

@@ -1,5 +1,5 @@
 .encabezado{
-	font-family:Calibri light;
+	font-family: 'Allerta Stencil', sans-serif;
 	font-size: 26px;
 	color:white;
 	padding: 2px;
@@ -24,7 +24,10 @@
 }
 
 .Parrafo{
-	font-family: calibri light;
+	font-family: Calibri;
+	color:grey;
+	font-size: 22px;
+	text-shadow: none;
 	text-align: justify;
 }
 
@@ -48,8 +51,9 @@
 .contenedor {
     float: left;
     width: 32%;
+    height: 400px;
     padding: 4px;
-    border-bottom: 2px solid Tomato;
+    border-right: 2px solid Tomato;
 }
 
 .contene2 {
@@ -59,6 +63,12 @@
     clear: both;
 }
 
+.contenedorfinal {
+    float: left;
+    width: 32%;
+    padding: 4px;
+    border-right: 2px solid Tomato;
+}
 .clearfix {
     overflow: auto;
     clear: both;
@@ -94,13 +104,11 @@
 	top:267px;
 }
 
-.MarPar{
-	background: linear-gradient(White,AntiqueWhite);
-}
 
 .row{
     display: table;
 	background-color:Tomato;
+	width: 100%;
 	color:white;
 	font-family:cooper;
 	font-size:15px;
@@ -143,14 +151,122 @@
 	text-align: justify;;
 }
 
-.TxTl{
-	float: right;
-	font-family: Calibri;
-	text-align: right;
-}
 
 .TituloTb{
 	text-align: center;
 	border:1px solid darkred;
 }
 
+.slider{
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+	height: 400px;
+
+}
+
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 30s infinite;
+	animation-timing-function:ease-in;
+
+}
+
+.slider li{
+	width: 100%;
+	list-style: none;
+
+}
+.slider li a{
+	color:white;
+	text-decoration: none;
+}
+
+.slider li a:hover{
+	text-decoration: underline;
+	color: Tomato;
+}
+
+.slider img{
+	width: 100%;
+}
+
+.slider h1{
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 26px;
+	text-align: center;
+	margin:0px auto;
+	color:white;
+	text-shadow: 2px 2px red;
+	background: rgba(255, 99, 71,0.3);
+	position: relative;
+	bottom: 10%;	
+}
+
+@keyframes cambio{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+
+.TabladeLanzamientos{
+	width: 35%;
+	margin-left: 0px left;
+	float:right;
+	padding: 3px;
+}
+
+.TabladeLanzamientos img{
+	width: 20%;
+	float:left;
+}
+
+.TabladeLanzamientos th{
+	background-color: black;
+	text-shadow: none;
+	padding: 10px;
+}
+
+
+.TabladeLanzamientos table{
+    border: 2px solid darkred;
+    border-radius: 5px;
+    border-collapse:collapse;
+    width: 100%;
+    font-family: Helvetica;
+    color:white;
+    font-size: 14px;
+}
+
+.TabladeLanzamientos tr{
+	background-color: Tomato;
+	padding: 10px;
+}
+
+.TabladeLanzamientos tr:nth-child(even){background-color:red;}
+
+.Tabladelanzamientos th{
+    text-align: left;
+    padding: 10px;
+}
+
+.Tabladelanzamientos td{
+    text-align: left;
+    padding: 10px;
+}
+
+.TxTl{
+	float: right;
+	font-family: Calibri;
+	text-align: right;
+}

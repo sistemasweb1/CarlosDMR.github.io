@@ -1,8 +1,4 @@
-@font-face
-{
-   font-family: Mayan;
-   src:url(Fuentes\mayan.otf) format("opentype")
-}
+
 
 body{
 	background-color: white;
@@ -13,38 +9,6 @@ a {
     color: white;
 }
 
-ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-}
-
-li {
-	font-family: 'Spicy Rice' ;
-	font-size: 18px;
-	float:left;
-}
-
-li a {
-    display: inline-block;
-    color: Tomato;
-    text-align: center;
-    padding: 14px 16px;
-}
-
-li a:hover {
-    background-color: white;
-}
-
-a:active{
-	text-decoration:underline;
-}
-
-a:hover {
-    text-decoration: underline;
-}
 
 
 input[type=text] {
@@ -84,6 +48,7 @@ tr{background-color: Red; overflow: auto;}
 th{
     background-color:Red;
 }
+
 
 
 

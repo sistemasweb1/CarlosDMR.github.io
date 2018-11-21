@@ -6,86 +6,91 @@
 	<link rel="stylesheet" href="CSS\Estilo.css">
 	<link rel="stylesheet" href="CSS\Clases.css">
 	<link rel="stylesheet" href="CSS\IDs.css">
+	<link rel="stylesheet" href="CSS\Menu.css">
 	<link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 </head>
 <body">
 	<div>
 		<h1 id="Titulo";><a href="index.html">TEC-GAMES</a></h1>
 	</div>
-	
-	<div id="Marco";>
-		<ul>
-			<li><a href="PS4.html";>Playstation 4</a></li>
-			<li><a href="XboxOne">Xbox One</a></li>
-			<li><a href="Nswitch">NINTENDO SWITCH</a></li>
-			<li><a href="PC">PC</a></li>
-			<li><a href="FOROS">FOROS</a></li>
-			<li><a href="NOTICIA">NOTICIAS</a></li>
-			<li><a href="ANALISIS">ÁNALISIS</a></li>
-			<li><a href="VIDEOS">VIDEOS</a></li>
-			<li><a href="GUIAS">GUIAS</a></li>
-			<form>
-				<input type="text" name="search" placeholder="Search..">
-			</form>
-		</ul>
-	</div>	
+	 <header>
+
+     	<input type="checkbox" id="bln-menu">
+        <label for="bln-menu"><img src="Imagenes\Menu.png"></label>
+    	
+	    <nav class="menu">
+	        <ul>
+	            <li><a href="">PS4</a></li>
+	            <li><a href="">XBOX ONE</a></li>
+	            <li><a href="">NINTENDO SWITCH</a></li>
+	            <li><a href="">PC</a></li>
+	            <li><a href="">ÁNALISIS</a></li>
+	            <li><a href="">VIDEOS</a></li>
+	            <li><a href="">GUIAS</a></li>
+	        </ul>
+	    </nav>
+	    </header>
 	
 <div id="Main">
 	<!--Sección Principlal!-->
-	<div class="MarcoPrin">
-			<img src="Imagenes\civ.jpg" style="width: 100%">
-			<div class="TituloImg">
-				<h1 class="encabezado"><a href="">La estrategia de Civilization VI llega a Switch</a></h1>
-			</div>
-	</div>
-	<!--Sección Secundaria!-->
+		<div class="slider">
+			<ul>
+				<li><img src="Imagenes\Slider\mel.jpg"><h1><a href="">Análisis de Melbits World</a></h1></li>
+				<li><img src="Imagenes\Slider\psf.jpg"><h1><a href="">PlayStation fuera de E3</a></h1></li>
+				<li><img src="Imagenes\Slider\civ.jpg"><h1><a href="">La estrategia de Civilization VI llega a Switch</a></h1></li>
+				<li><img src="Imagenes\Slider\super.jpg"><h1><a href="">¿Es Super Smash Brothers Ultimate el Smash definitivo?</a></h1></li>
+			</ul>
+		</div>
 	<hr>
 	<div class="clearfix">
 		
 			<div class="contenedor">
-				<img src="Imagenes\red_dead_1.jpg" alt="Italy" style="width:100%" >
-				<a href="N2"><h2 class="encabeza3"><b>NOTICIA 2</b></h2></a>
-				<p class="Parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+				<img src="Imagenes\NOTICIAS\red_dead_1.jpg" alt="Italy" style="width:100%" >
+				<a href="N2"><h2 class="encabeza3"><b>Red Dead Redemption 2: Así el día a día de los NPC</b></h2></a>
+				<p class="Parrafo">Un vídeo evidencia el gran trabajo de Rockstar por dotar a sus personajes no jugables de una vida propia.</p>
 			</div>
 			<div class="contenedor">
-					<img src="Imagenes\red_dead_2.jpg" alt="Forest" style="width:100%">
-						<a href="N3"><h2 class="encabeza3">NOTICIA 3</h2></a>
-							<p class="Parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+					<img src="Imagenes\NOTICIAS\pokemonjap.jpg" alt="Forest" style="width:100%">
+						<a href="N3"><h2 class="encabeza3">Pokémon Let's Go arrasa en su estreno japonés</h2></a>
+							<p class="Parrafo">La nueva entrega de la saga consigue multiplicar por cuatro la demanda de Nintendo Switch.</p>
 			</div>
 			<div class="contenedor">
-					<img src="Imagenes\playstation_5.jpg" alt="Mountains" style="width:100%">
-						<a href="N4"><h2 class="encabeza3">NOTICIA 4</h2></a>
-						<p class="Parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+					<img src="Imagenes\NOTICIAS\playstation_5.jpg" alt="Mountains" style="width:100%">
+						<a href="N4"><h2 class="encabeza3">PS4, la consola mas vendida en EEUU durante octubre </h2></a>
+						<p class="Parrafo">La videoconsola de Sony ha tenido su mejor mes de octubre en Estados Unidos desde el año 2002 con PlayStation 2.</p>
 			</div>
 	</div>
+	<hr>
 	<!--Sección Tercearia!-->
 	<div class="clearfix">
 			<div >
 				<div class="contene2">
-					<img src="Imagenes\playstation_5.jpg" alt="Mountains" style="width:100%">
+					<img src="Imagenes\NOTICIAS\red_dead_2.jpg" alt="Mountains" style="width:100%">
 				</div>
-				<h2 class="encabeza3"><a href="">NOTICIA 5</a></h2>
-				<p class="Parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+				<h2 class="encabeza3"><a href="">Red Dead Redemption 2 supera con creces las ventas del anterior</a></h2>
+				<p class="Parrafo">Su primer mes de ventas en EEUU triplica las del Red Dead Redemption de PS3 y X360 lanzado en 2010.</p>
 			</div>
 	</div>
 	<hr>
 	<div class="clearfix">
 			<div >
 				<div class="contene2">
-					<img src="Imagenes\playstation_5.jpg" alt="Mountains" style="width:100%">
+					<img src="Imagenes\NOTICIAS\hw.jpg" alt="Mountains" style="width:100%">
 				</div>
-				<h2 class="encabeza3"><a href="">NOTICIA 5</a></h2>
-				<p class="Parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+				<h2 class="encabeza3"><a href="">G.Skill lanza su serie Trident Z Royale de DRAM DDR4</a></h2>
+				<p class="Parrafo">G.Skill ha decidido engalanar su último kit de memoria DDR4. La compañía acaba de anunciar su serie Trident Z Royal.</p>
 			</div>
 	</div>
 	<hr>
 	<div class="clearfix">
 			<div >
 				<div class="contene2">
-					<img src="Imagenes\playstation_5.jpg" alt="Mountains" style="width:100%">
+					<img src="Imagenes\NOTICIAS\eeuuhw5.jpg" alt="Mountains" style="width:100%">
 				</div>
-				<h2 class="encabeza3"><a href="">NOTICIA 5</a></h2>
-				<p class="Parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+				<h2 class="encabeza3"><a href="">Los estadounidenses han gastado un 18% más en hardware en 2018</a></h2>
+				<p class="Parrafo">Unos 2.700 millones de dólares, una cifra espectacular a pesar de la madurez de la generación.</p>
 			</div>
 	</div>
 
@@ -136,27 +141,41 @@
 				</tr>
 			</table>
 		</div>
-		<div id="TabladeLanzamientos">
+	
+		<div class="TabladeLanzamientos">
 			<table>
 				<tr>
-					<th>Lanzamientos</th>
+					<th>Proximos lanzamientos:</th>
 				</tr>
 				<tr>
-					<td><img src='Imagenes/batt.jpg' width="20%"><p class='TxTl'>Battlefield V Fecha de Lanzamiento: 20 de Noviembre del 2018</p></td>
+					<td><img src='Imagenes/TABLALAN/batt.jpg'><p class='TxTl'>Battlefield V: 20 de Noviembre 2018</p></td>
+				</tr>
+				<tr>
+					<td><img src='Imagenes/TABLALAN/ds3.jpg'><p class='TxTl'>Darksiders III: 27 de Noviembre 2018</p></td>
+				</tr>
+				<tr>
+					<td><img src='Imagenes/TABLALAN/psc.jpg'><p class='TxTl'>PlayStation Classic: 3 de Diciembre 2018</p></td>
+				</tr>
+				
+				<tr>
+					<td><img src='Imagenes/TABLALAN/ride3.jpg'><p class='TxTl'>RIDE 3: 30 de Noviembre 2018</p></td>
+				</tr>
+				<tr>
+					<td><img src='Imagenes/TABLALAN/ssb.jpg'><p class='TxTl'>SSB. Ultimate: 7 de Diciembre 2018 </p></td>
 				</tr>
 			</table>
 		</div>
-	</div><!--Fin divTabla-->
+	</div>	
+	<!--Fin divTabla-->
 </div> <!-- Fin Main !--> 
 
 	<div class="row">
-		<div class="contenedor">
+		<div class="contenedorfinal">
 				<p>TEC-GAMES es una página sobre videojuegos independiente, con noticias, análisis, avances y mucho más.</p><br>
-				<p>TEC-GAMES.com © 2018. Todos los derechos reservados.Ninguna parte de esta web o de su contenido 
-					puede reproducirse sin el permiso expreso del propietario del copyright.</p>
+				<p>TEC-GAMES.com 2018. Página web creada sin fines lucrativos.Proyecto escolar: Sistemas Web I.</p>
 		</div>
 		
-		<div class="contenedor">
+		<div class="contenedorfinal">
 			<h3>Contactanos:</h3>
 			<div class="contenedormini">
 				<a href="http://www.Facebook.com"><img src="Imagenes\facebook.png" title ="Facebook.com/TGAMES"></a>
@@ -169,7 +188,7 @@
 			</div>
 		</div>
 		
-		<div class="contenedor">
+		<div class="contenedorfinal">
 			<h3>Enlaces de Utilidad:</h3>
 			
 		</div>
