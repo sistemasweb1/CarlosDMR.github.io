@@ -270,3 +270,113 @@
 	font-family: Calibri;
 	text-align: right;
 }
+
+.contenedor video {
+    width: 100%;
+    height: auto;
+}
+
+
+.Noticia img{
+	float: right;
+	width: 60%;
+	height: 300px;
+	padding-left: 20px;
+}
+
+.mainNot{
+	width: 960px;
+	margin:0px auto;
+}
+
+.Noticia h1{
+	font-family: Calibri light;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	text-shadow: 2px 2px red;
+	background-color: tomato;
+	border-color: black;
+}
+
+.Noticia h2{
+	font-family: Calibri light;
+	font-size: 22px;
+	color: black;
+	text-shadow: 1px 1px black;
+}
+
+.Noticia p{
+	font-family: Calibri;
+	font-size: 20px;
+	text-shadow: none;
+	color:black;
+	text-align: justify;
+	padding: 5px;
+}
+
+.Analisis img{
+	width: 100%;
+	height: 400px;
+	padding: 10px;
+	position: relative;
+}
+
+.Analisis h1{
+	padding: 15px;
+	width: 95%;
+	height: 50px;
+	position: absolute;
+	bottom: 50px;
+	color: white;
+	text-shadow: 2px 2px red;
+}
+
+.Analisis h2{
+	text-align: center;
+	text-shadow: none;
+	color: red;
+}
+
+.Analisis h3{
+	font-size: 22px;
+	font-family: calibri light;
+	text-align: justify;
+	text-shadow: none;
+	color:black;
+}
+
+.Analisis p{
+	text-shadow: none;
+	font-size: 20px;
+	font-family: calibri light;
+	text-align: justify;
+}
+
+
+.ParrafoInter h2{
+	text-shadow: none;
+	font-size: 22px;
+	font-family: calibri light;
+	text-align: left;
+}
+
+.ParrafoInter img{
+	width: 30%;
+	height: 200px;
+	float: right;
+	position: relative;
+}
+
+.TituloAnalisis{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.TituloAnalisis h1{
+	color: white;
+	text-shadow: 2px 2px red;
+	text-align: center;
+}

@@ -9,7 +9,10 @@ a {
     color: white;
 }
 
-
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
 
 input[type=text] {
     width: 28%;
